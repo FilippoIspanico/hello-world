@@ -1,3 +1,4 @@
 #!/bin/bash
 
- g++ HelloWorld.cpp -o HelloWorld
+g++ HelloWorld.cpp -o HelloWorld
+ls
