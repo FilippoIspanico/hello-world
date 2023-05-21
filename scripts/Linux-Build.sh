@@ -1,4 +1,3 @@
 #!/bin/bash
 
-vendor/bin/premake/premake5 gmake2
-make
+ g++ HelloWorld.cpp -o HelloWorld
