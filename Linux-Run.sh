@@ -1,2 +1,2 @@
 #!bin/bash
-./HelloWorld
+./HelloWorld.exe
