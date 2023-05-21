@@ -5,7 +5,7 @@ pipeline{
             steps{
                 sh 'echo "Building..."'
                 sh 'chmod +x Linux-Build.sh'
-                sh 'Linux-Build.sh'
+                sh './Linux-Build.sh'
                 
         
             }
@@ -16,7 +16,7 @@ pipeline{
             steps{
                 sh 'echo "Running..."'
                 sh 'chmod +x Linux-Run.sh'
-                sh 'Linux-Run.sh'
+                sh './Linux-Run.sh'
             }
         }
 
