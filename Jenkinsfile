@@ -15,7 +15,7 @@ pipeline{
         stage('Test'){
             steps{
                 sh 'echo "Running..."'
-                sh 'chmod +x Linux-Run.sh'
+           
                 sh './HelloWorld'
             }
         }
