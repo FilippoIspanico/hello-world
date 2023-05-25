@@ -4,8 +4,8 @@ pipeline{
         stage('Build'){
             steps{
                 sh 'echo "Building..."'
-                sh 'chmod +x Linux-Build.sh'
-                sh './Linux-Build.sh'
+                sh 'chmod +x Linux-CBuild.sh'
+                sh './Linux-CBuild.sh'
                 
         
             }
@@ -16,7 +16,7 @@ pipeline{
             steps{
                 sh 'echo "Running..."'
            
-                sh './HelloWorld'
+                sh './calc_test'
             }
         }
 
