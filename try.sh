@@ -9,6 +9,7 @@ cd /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
 cd /usr/lib/x86_64-linux-gnu/
+
 sudo cp libgtest.a libgtest_main.a /usr/lib
 
 ./sample1_unittest
