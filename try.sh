@@ -1,6 +1,6 @@
 #!/bin/bash
 export STARTING_PATH=$(pwd)
-
+sudo apt update
 sudo apt install libgtest-dev
 sudo apt install cmake
 sudo apt install g++
