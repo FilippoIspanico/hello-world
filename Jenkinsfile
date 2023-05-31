@@ -14,7 +14,7 @@ pipeline{
             steps{
                 sh 'echo "Running..."'
                 sh 'chmod +x Linux-Run.sh'
-
+                sh './Linux-Run.sh'
                 sh './HelloWorld'
             }
         }
