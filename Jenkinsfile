@@ -4,8 +4,8 @@ pipeline{
         stage('Build'){
             steps{
                 sh 'echo "Building..."'
-                sh 'chmod +x Linux-SampleTest.sh'
-                sh './Linux-SampleTest.sh'
+                sh 'chmod +x Linux-CBuild.sh'
+                sh './Linux-CBuild.sh'
                 sh 'ls'
                 
         
