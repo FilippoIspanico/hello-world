@@ -5,9 +5,9 @@ pipeline{
             steps{
                 sh 'echo "Building..."'
                 sh 'chmod +x Linux-CBuild.sh'
-                sh 'apt-get install libgtest-dev'
-                sh 'apt-get install cmake'
-                sh 'apt-get install g++'
+                sh 'sudo apt-get install libgtest-dev'
+                sh 'sudo apt-get install cmake'
+                sh 'sudo apt-get install g++'
                 sh 'cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make'
                 sh 'cd /usr/lib/x86_64-linux-gnu/'
                 sh 'cp libgtest.a libgtest_main.a /usr/lib'
